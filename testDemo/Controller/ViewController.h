@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSArray *titleArray;
+@property (nonatomic, strong) NSArray *controllerArray;
 
 @end
 
